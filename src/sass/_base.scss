@@ -1,0 +1,392 @@
+html {
+  counter-reset: count;
+  font-size: 10px;
+  @media all and (max-width: 1200px) {
+    font-size: 8.5px;
+  }
+  @media all and (max-width: 1025px) {
+    font-size: 8px;
+  }
+  @media all and (max-width: 767px) {
+    font-size: 7px;
+  }
+}
+body {
+  @media all and (min-width: 1365px) {
+    overflow-x: hidden;
+  }
+}
+.body-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.gm-bundled-control-on-bottom {
+  left: 0;
+}
+section:not(.home-section){
+  padding: 10rem 0;
+  @media all and (max-width: 1024px) {
+    padding: 5rem 0;
+  }
+  @media all and (min-width:1366px) and (max-height: 630px) {
+    padding: 5rem 0;
+  }
+}
+.section {
+  &__title {
+    padding-top: 2.2rem;
+    margin-bottom: 6rem;
+    color: #222222;
+    font-family: "Museo Sans Cyrl 900";
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    &-white {
+      color: #ffffff;
+      position: relative;
+    }
+    &--smaller {
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem;
+      text-transform: none;
+    }
+    @media all and (max-width: 767px) {
+      font-size: 3rem;
+      margin-bottom: 2.5rem;
+    }
+    @media all and (min-width: 767px) and (max-width: 1023px) {
+      font-size: 3.5rem;
+      margin-bottom: 5rem;
+    }
+  }
+  &__subtitle {
+    padding-left: 5.5rem;
+    position: relative;
+    color: #f0b912;
+    font-family: "Museo Sans Cyrl 500";
+    font-size: 1.8rem;
+    font-weight: 400;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 4rem;
+      height: 0.1rem;
+      border-radius: 0.1rem;
+      background-color: #ffda44;
+    }
+    @media all and (max-width: 767px) {
+      font-size: 1.6rem;
+        &:before {
+          height: 0.2rem;
+        }
+    }
+    @media all and (min-width:767px) and (max-width: 1023px) {
+        &:before {
+          height: 0.2rem;
+        }
+    }
+  }
+}
+.fixed-menu {
+  @media all and (min-width: 1025px) {
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    header {
+      max-width: 111rem;
+      width: 100%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    z-index: 100;
+    &-scroll {
+      background: #222222;
+      transition: all 0.3s;
+    }
+  }
+}
+
+
+.fullscreen-bg {
+  overflow: hidden;
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  padding-top:45%;
+}
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  @media all and (max-width: 1250px) {
+    width: auto;
+  }
+}
+.overlay {
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.error {
+    border: 0.1rem solid red !important;
+}
+.modal {
+  padding: 0;
+  border-top: 0.5rem solid #fccc22;
+  & input:not([type="submit"]) {
+    background-color: #fafafa;
+  }
+  & .home-form {
+    height: auto;
+  }
+  &-textarea {
+    & span {
+      top: 4rem !important;
+    }
+  }
+  &-form {
+    &-content {
+      &-wrapper {
+        display: flex;
+      }
+    }
+  }
+  & textarea {
+    padding: 2.5rem 2rem 2rem 7rem;
+    width: 100%;
+    resize: none;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #e6e6e6;
+    background-color: #fafafa;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 300;
+    cursor: pointer;
+    outline: 0;
+  }
+  &-success {
+    border-top: 0.5rem solid #fccc22;
+    .modal-content-wrapper {
+      max-width: 29rem;
+      text-align: center;
+    }
+    &-img {
+      margin: 0 auto 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15rem;
+      height: 15rem;
+      border: 0.1rem solid #e6e6e6;
+      background-color: #ffffff;
+      border-radius: 50%;
+
+      & svg {
+        width: 10rem;
+        height: 10rem;
+        & path {
+
+        }
+      }
+    }
+    &__title {
+      margin-bottom: 2rem;
+      color: #222222;
+      font-family: "Museo Sans Cyrl 900";
+      font-size: 2.7rem;
+      font-weight: 400;
+    }
+    &__text {
+      color: #707070;
+      font-family: Roboto;
+      font-size: 1.4rem;
+      font-weight: 300;
+      line-height: 2rem;
+    }
+  }
+  &-product {
+    @media all and (max-width: 420px) {
+      width: calc(100% - 5rem);
+      margin: 0 auto;
+    }
+    &-info {
+      @media all and (max-width: 420px) {
+        margin-top: 2rem;
+        width: 100%;
+      }
+      & p {
+        margin-bottom: 1rem;
+        color: #707070;
+        font-family: Roboto;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+      & strong {
+        font-family: "Roboto";
+        font-weight: 700;
+      }
+    }
+    padding: 4.5rem 5rem 6rem;
+    .modal-form-content {
+      margin-bottom: 3rem;
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+      @media all and (max-width: 420px) {
+        flex-wrap: wrap;
+      }
+      &-wrapper {
+        max-width:55rem;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+    &-wrapper {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+    &-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 3rem;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+    & form {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &-img {
+      margin-right: 4rem;
+      max-width: 29rem;
+      max-height: 22rem;
+      box-shadow: -0.3rem 0.4rem 1.5rem rgba(31, 34, 38, 0.3);
+      border-radius: 0.2rem 0.2rem 0 0;
+      background-color: #000000;
+      @media all and (max-width: 420px) {
+        margin: 0 auto 2rem;
+      }
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    &__title {
+      margin-bottom: 1.5rem;
+      color: #222222;
+      font-family: "Museo Sans Cyrl 900";
+      font-size: 2.7rem;
+      font-weight: 400;
+    }
+    &__price {
+      color: #f0b912;
+      font-family: "Museo Sans Cyrl 700";
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    & input[type="text"], & input[type="tel"] {
+      padding: 2rem 2rem 2rem 6rem;
+    }
+    .form-input-wrapper {
+      width:calc((100% / 2) - 1.5rem);
+      @media all and (max-width: 420px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &-feedback {
+    border-top: 0.5rem solid #fccc22;
+    &-head {
+      margin-bottom: 3rem;
+      display: flex;
+      &-img {
+        margin-right: 3rem;
+        width: 10rem;
+        height: 10rem;
+        box-shadow: -0.3rem 0.4rem 1.5rem rgba(31, 34, 38, 0.3);
+        border-radius: 0.2rem 0.2rem 0 0;
+        background-color: #000000;
+        & img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      &__title {
+        margin-bottom: 2rem;
+        color: #222222;
+        font-family: "Museo Sans Cyrl 900";
+        font-size: 2.7rem;
+        font-weight: 400;
+      }
+      &-desc {
+        display: flex;
+        align-items: center;
+        &__name {
+          margin-right: 3rem;
+          color: #222222;
+          font-family: Roboto;
+          font-size: 2rem;
+          font-weight: 400;
+        }
+        &__position {
+          color: #707070;
+          font-size: 1.5rem;
+        }
+      }
+    }
+    &__text {
+      max-width: 62rem;
+      & p {
+        margin-bottom: 2rem;
+        color: #000000;
+        font-family: Roboto;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2rem;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+  }
+}
+.button--to-bottom {
+  text-decoration: none;
+}

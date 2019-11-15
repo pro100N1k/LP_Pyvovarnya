@@ -1,0 +1,36 @@
+// UTILS
+@import "reset";
+@import "mixins";
+
+// LIBS
+@import "libs/bootstrap-grid";
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css';
+@import "../../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css";
+
+
+// BASE
+@import "fonts";
+@import "base";
+
+
+// COMPONENTS
+@import "buttons";
+@import "header";
+@import "footer";
+@import "custom-scroll";
+
+@import "home";
+@import "offer";
+@import "forms";
+@import "catalog";
+@import "excellence";
+@import "progress";
+@import "features";
+@import "form-section";
+@import "work";
+@import "case";
+@import "certificates";
+@import "contacts";
+@import "edits";

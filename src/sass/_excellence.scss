@@ -1,0 +1,94 @@
+.excellence {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &-section {
+    position: relative;
+    @media all and (max-width: px) {
+        
+    }
+  }
+  &-bg {
+    &-img {
+        position: absolute;
+        top: -5rem;
+        right: -5rem;
+        @media all and (max-width: 1365px) {
+          display: none;
+        }
+      @media all and (min-width:1366px) and (max-width: 1800px) {
+        max-width:27rem;
+      }
+    }
+  }
+  &-wrap {
+
+  }
+  &-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    @media all and (max-width: 767px) {
+      justify-content: space-around;
+    }
+    &-wrapper {
+      padding: 3rem;
+      margin-bottom: 3rem;
+      width: calc((100% / 2) - 1.5rem);
+      box-shadow: -0.4rem 0.7rem 2rem rgba(31, 34, 38, 0.05);
+      border-radius: 0.2rem;
+      border: 0.1rem solid #f6e5ca;
+      background-color: #ffffff;
+      transition: all 0.3s;
+      cursor: pointer;
+      &:last-of-type {
+        margin-bottom: 3rem;
+      }
+      &:hover {
+        background: #fccc22;
+        .excellence-item-img {
+          & svg {
+            & path {
+              fill: #000000;
+            }
+          }
+        }
+      }
+      @media all and (max-width: 480px) {
+        width: 100%;
+      }
+      @media all and (min-width:481px) and (max-width: 767px) {
+        width: calc((100% / 2) - 1rem);
+      }
+    }
+    &-img {
+      width: 5rem;
+      height: 5rem;
+      @media all and (max-width: 767px) {
+        margin-right: 2rem;
+      }
+      @media all and (min-width:768px) and (max-width: 1023px) {
+        margin-right: 2rem;
+      }
+      & svg {
+        width: 5rem;
+        height: 5rem;
+        & path {
+          fill: #fccc22;
+        }
+      }
+    }
+    &-text {
+      max-width: 40.8rem;
+      color: #707070;
+      font-family: Roboto;
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.8rem;
+      & strong {
+        color: #222222;
+        font-weight: 700;
+      }
+    }
+  }
+}

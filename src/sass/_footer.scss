@@ -1,0 +1,167 @@
+footer {
+  background-color: #222222;
+  .footer {
+    &-wrapper {
+      padding: 2rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      @media all and (max-width: 675px) {
+        display: none;
+      }
+    }
+    &-logo {
+      &-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      &__img {
+        margin-right: 1.5rem;
+        width: 13rem;
+        height: 7rem;
+        & img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      &__text {
+        max-width: 8.7rem;
+        color: #fffefe;
+        font-family: "Museo Sans Cyrl 700";
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+    &-list {
+      &-wrapper {
+        width: 77rem;
+        //@media all and (min-width: 675px) {
+        //  width: auto;
+        //}
+      }
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &-item {
+        position: relative;
+        &-sublist {
+          position: relative;
+          &:before {
+            content: '\f2f9';
+            display: block;
+            position: absolute;
+            font-family: Material-Design-Iconic-Font;
+            font-size: 1.4rem;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            color: #fccc22;
+          }
+          &:hover {
+            .footer-list-item__sublist {
+              display: flex;
+            }
+          }
+        }
+        &__sublist {
+          display: none;
+          margin-top: 2rem;
+          padding: 2rem 4.5rem;
+          position: absolute;
+          bottom: 100%;
+          right: 0;
+          //display: flex;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 0.5rem solid #fccc22;
+          box-shadow: -0.3rem 0.4rem 1.5rem rgba(31, 34, 38, 0.2);
+          border-radius: 0.2rem;
+          background-color: #ffffff;
+          z-index: 2;
+          &--active {
+            display: flex;
+          }
+          & ul {
+            & li {
+              margin-bottom: 2.5rem;
+              &:last-of-type {
+                margin-bottom: 0;
+              }
+              & a {
+                padding: 0;
+                color: #222222;
+                font-family: Roboto;
+                font-size: 1.2rem;
+                font-weight: 400;
+                text-transform: uppercase;
+                &:hover {
+                  border-bottom: none;
+                }
+              }
+            }
+          }
+        }
+      }
+      & li {
+        position: relative;
+        margin-right: 1rem;
+        &:last-of-type {
+          margin: 0;
+        }
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+          width: 0.2rem;
+          height: 0.2rem;
+          background: rgba(#fff,0.5);
+        }
+        &:last-of-type {
+          &:after {
+            display: none;
+          }
+        }
+        & a {
+          padding: 0 1rem 1.3rem 0;
+          color: #fffefe;
+          font-family: Roboto;
+          font-size: 1.2rem;
+          font-weight: 400;
+          text-transform: uppercase;
+          text-decoration: none;
+          transition: all 0.3s;
+          &:hover {
+            border-bottom: 0.1rem solid #fffefe;
+           // border-bottom: none;
+          }
+        }
+      }
+    }
+
+    &-copyright {
+      padding: 1.5rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(#fffefe,0.3);
+      font-family: Roboto;
+      font-size: 1.5rem;
+      font-weight: 400;
+      border-top: 0.1rem solid rgba(#ffffff,0.15);
+    }
+  }
+}
+body[data-browser="ie"] {
+  .footer-list-item__sublist, .menu-list-item__sublist {
+    min-width:18rem;
+  }
+  .progress-item {
+
+  }
+}

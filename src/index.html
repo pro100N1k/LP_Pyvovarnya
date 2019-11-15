@@ -1,0 +1,2385 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Пивоварня</title>
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="body-wrapper">
+
+    <section id="home" class="section home-section">
+        <div class="home-wrap">
+            <div class="fullscreen-bg">
+                <video loop muted autoplay class="fullscreen-bg__video">
+                    <source src="img/video.mp4" type="video/mp4">
+                    <source src="video/plane.webm" type="video/webm">
+                </video>
+            </div>
+            <div class="container">
+                <div class="fixed-menu">
+                    <header>
+                        <div class="home-menu-wrapper menu-wrapper">
+                            <a href="#home" class="button--to-bottom">
+                                <div class="menu-logo-wrapper">
+                                    <div class="menu-logo__img">
+                                        <img src="img/img/logo.svg" class="img-svg" alt="">
+                                    </div>
+                                    <!--<div class="menu-logo__text">-->
+                                        <!--Завод базовый-->
+                                    <!--</div>-->
+                                </div>
+                            </a>
+
+
+                            <div class="menu-list-wrapper">
+                                <ul class="menu-list">
+                                    <li class="menu-list-item"><a href="#progress" class="menu-list-item__link button--to-bottom">О нас</a></li>
+                                    <li class="menu-list-item"><a href="#offer" class="menu-list-item__link button--to-bottom">Готовые решения</a></li>
+                                    <li class="menu-list-item"><a href="#catalog" class="menu-list-item__link button--to-bottom">Оборудование</a></li>
+                                    <li class="menu-list-item"><a href="#excellence" class="menu-list-item__link button--to-bottom">Наши преимущества</a></li>
+                                    <li class="menu-list-item"><a href="#case" class="menu-list-item__link button--to-bottom">Клиенты</a></li>
+                                    <li class="menu-list-item"><a href="#work" class="menu-list-item__link button--to-bottom">Схема работы</a></li>
+                                    <!--<li class="menu-list-item menu-list-item-sublist"><a class="menu-list-item__link">ЕЩЕ</a>-->
+                                        <!--<div class="menu-list-item__sublist">-->
+                                            <!--<ul>-->
+
+                                                <!--<li><a href="#certificates" class="button&#45;&#45;to-bottom">Сертификаты</a></li>-->
+
+                                                <!--<li><a href="#contacts" class="button&#45;&#45;to-bottom">Контакты</a></li>-->
+                                            <!--</ul>-->
+                                        <!--</div>-->
+                                    <!--</li>-->
+                                </ul>
+                            </div>
+                            <div class="menu-contacts-wrapper">
+                                <div class="menu-contacts">
+                                    <div class="menu-contacts__phone">тел.: +7(8482) 77-66-77</div>
+                                    <div class="menu-contacts__email">zavod-bazoviy@mail.ru</div>
+                                </div>
+
+                                <div class="menu-contacts-btn-wrapper">
+                                    <div class="menu-contacts-btn">
+                                        <a href="#modal-call" class="fancybox">Заказать звонок</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-bar-wrap">
+                                <div class="menu-bar active back">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="menu menu-mobile">
+                                <div class="menu-mobile-list-wrapper">
+                                    <ul class="menu-mobile-list">
+                                        <li class="menu-list-item"><a href="#progress" class="menu-list-item__link button--to-bottom">О нас</a></li>
+                                        <li class="menu-list-item"><a href="#offer" class="menu-list-item__link button--to-bottom">Готовые решения</a></li>
+                                        <li class="menu-list-item"><a href="#catalog" class="menu-list-item__link button--to-bottom">Оборудование</a></li>
+                                        <li class="menu-list-item"><a href="#excellence" class="menu-list-item__link button--to-bottom">Наши преимущества</a></li>
+                                        <li class="menu-list-item"><a href="#case" class="menu-list-item__link button--to-bottom">Клиенты</a></li>
+                                        <li class="menu-list-item"><a href="#work" class="menu-list-item__link button--to-bottom">Схема работы</a></li>
+                                        <!--<li><a href="#case" class="button&#45;&#45;to-bottom">Кейсы</a></li>-->
+                                        <!--<li><a href="#certificates" class="button&#45;&#45;to-bottom">Сертификаты</a></li>-->
+                                        <!--<li><a href="#work" class="button&#45;&#45;to-bottom">Схема работы</a></li>-->
+                                        <!--<li><a href="#contacts" class="button&#45;&#45;to-bottom">Контакты</a></li>-->
+                                    </ul>
+                                </div>
+                                <div class="menu-mobile-buttons">
+                                    <a href="#modal-call" class="fancybox btn btn-base--active">Заказать звонок</a>
+                                    <a href="#modal-question" class="fancybox btn btn-base">Задать вопрос</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </header>
+                </div>
+
+                <div class="home-wrapper">
+                    <div class="home">
+                        <div class="home-title">
+                            <div class="home-tagline">Емкостное оборудование от производителя</div>
+                            <h1 class="home__title">Пивоварни и пивзаводы «под ключ»</h1>
+                            <h4 class="home__subtitle">Для частного бизнеса, кафе, пабов и ресторанов</h4>
+                        </div>
+                        <div class="home-preference">
+                            <div class="home-preference-item">
+                                <div class="home-preference-item__img">
+                                    <img src="img/icons/tag.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="home-preference-item__text">Гарантия самой низкой цены на рынке</div>
+                            </div>
+                            <div class="home-preference-item">
+                                <div class="home-preference-item__img">
+                                    <img src="img/icons/hand.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="home-preference-item__text">Минимальная предоплата 20%</div>
+                            </div>
+                            <div class="home-preference-item">
+                                <div class="home-preference-item__img">
+                                    <img src="img/icons/idea1.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="home-preference-item__text">Обучение персонала и пробные варки</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-form-wrapper">
+
+                        <div class="home-form form">
+                            <h3 class="form-title">Заполните форму</h3>
+                            <div class="form-subtitle">Мы свяжемся с Вами и предложим выгодные условия сотрудничества</div>
+                            <form action="mail.php" method="post">
+                                <input type="hidden" name="project_name" value="Пивоварня">
+                                <input type="hidden" name="form_subject" value="Форма Главная|Отправить заявку">
+                                <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                                <div class="form-input-wrapper">
+                                    <span><i class="zmdi zmdi-account"></i></span>
+                                    <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                                </div>
+                                <div class="form-input-wrapper">
+                                    <span><i class="zmdi zmdi-phone"></i></span>
+                                    <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                                </div>
+                                <input type="submit" class="form__btn btn-base--active" value="Отправить заявку">
+                            </form>
+                        </div>
+                        <div class="home-form-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="progress" class="section progress-section">
+        <img src="img/img/progress-bg-img.png" class="progress-bg-img" alt="">
+        <div data-relative-input="true" id="mouse" class="progress-parallax-right">
+            <img data-depth="0.5" src="img/img/about-us1.png" alt="">
+            <img data-depth="1" src="img/img/about-us2.png" alt="">
+        </div>
+        <div class="progress-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Информация о компании</h5>
+                <h2 class="section__title">Цифры о нас</h2>
+                <div class="progress-wrapper">
+                    <div class="progress">
+                        <div class="progress-block">
+                            <img class="progress-block-img__main" src="img/img/progress.png"  alt="">
+                            <div class="progress-item">
+                                <div class="progress-item__value">9</div>
+                                <div class="progress-item__text">лет опыта на рынке пивоварения</div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-item__value">22</div>
+                                <div class="progress-item__text">высококвалифицированных сотрудника</div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-item__value">113</div>
+                                <div class="progress-item__text">едениц произведенного оборудования</div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-item__value">890</div>
+                                <div class="progress-item__text">м<sup><small>2</small></sup> производственных площадей</div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-item__value">920</div>
+                                <div class="progress-item__text">тонн продукции производится на нашем оборудовании</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="offer" class="section offer-section">
+        <img src="img/img/beer_hops_kolos.png" alt="" class="offer-bg-img">
+        <div class="offer-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Коммерческие предложения</h5>
+                <h2 class="section__title">Воспользуйтесь готовым предложением</h2>
+                <div class="offer-wrapper">
+                    <div class="offer">
+                        <div class="offer-restaurant">
+                            <div class="offer-tab">
+                                <div class="offer-tab-head">для баров, пабов, кафе, ресторанов</div>
+                                <div class="offer-tab-item tab-active-link" data-tab="100">100 л/варка</div>
+                                <div class="offer-tab-item" data-tab="200">200 л/варка</div>
+                                <div class="offer-tab-item" data-tab="300">300 л/варка</div>
+                            </div>
+                        </div>
+                        <div class="offer-factory">
+                            <div class="offer-tab">
+                                <div class="offer-tab-head">для частных пивоварен, заводов</div>
+                                <div class="offer-tab-item" data-tab="500">500 л/варка</div>
+                                <div class="offer-tab-item" data-tab="1500">1500 л/варка</div>
+                                <div class="offer-tab-item" data-tab="3000">3000 л/варка</div>
+                            </div>
+                        </div>
+                        <div class="offer-content-wrapper">
+                            <div class="offer-content offer-content-active" data-tab="100">
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                     <div class="offer-column-head">
+                                         <div class="offer-column-head__price"><img src="img/icons/tab-price-tag.svg" alt="" class="offer-img svg-img">Цена: <strong>300 000 руб.</strong></div>
+                                     </div>
+                                    </div>
+
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <div class="offer-column-body-title">Производительность:</div>
+                                            <ul>
+                                                <li>Объем одной варки: 2000 л.</li>
+                                                <li>Число варок в месяц: 60</li>
+                                                <li>Расход литров воды на одну варку: 4000 л</li>
+                                                <li>Примерный расход солода: 400 кг</li>
+                                                <li>Себестоимость 1 литра пива: 14 руб.</li>
+                                                <li>Энергоноситель: газ/электроенергия</li>
+                                                <li>Число сотрудников: 1 чел.</li>
+                                                <li>Высота помещения: 5 м.</li>
+                                                <li>Площадь помещения: 200 м<sup>2</sup></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__equipment"><img src="img/icons/tab-file.svg" class="offer-img svg-img" alt=""><strong>Предоплата: 20%</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <div class="offer-column-body-title">Состав пивоварни:</div>
+                                            <ul>
+                                                <li>Солододробилка - 1шт.</li>
+                                                <li>Танк горячей воды - 1шт.</li>
+                                                <li>Заторно-сусловарочный котел - 1шт.</li>
+                                                <li>Фильтро-гидроциклованный аппарат - 1шт.</li>
+                                                <li>Шкаф управления варочным аппаратом - 1шт.</li>
+                                                <li>Комплект обвязки варочного порядка - 1шт.</li>
+                                                <li>Площадка обслуживания - 1шт.</li>
+                                                <li>Теплообменник - 1шт.</li>
+                                                <li>ЦКТ - 4шт.</li>
+                                                <li>Чиллер - 1шт.</li>
+                                                <li>Буферная емкость гликоля - 1шт.</li>
+                                                <li>Насосы - 2шт.</li>
+                                                <li>Шкаф управления цехом брожения - 1шт.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__settings"><img src="img/icons/tab-clock.svg" alt="" class="offer-img svg-img"><strong>Срок производства: 60 дней</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body-title">Особенности конструкции:</div>
+                                        <div class="offer-column-body">
+                                            <p>
+                                                Идейные соображения высшего
+                                                порядка, а также рамки и место
+                                                обучения кадров позволяет выполнять
+                                                важные задания по разработке позиций,
+                                                занимаемых участниками в отношении
+                                                поставленных.
+                                            </p>
+                                            <p>
+                                                Таким оразом новая модель
+                                                организационной деятельности требует
+                                                от нас анализа позиций, занимаемых
+                                                участниками в отношении
+                                                поставленных задач
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-content" data-tab="200">
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__price"><img src="img/icons/tab-price-tag.svg" alt="" class="offer-img svg-img">Цена: <strong>от 20 000 руб.</strong></div>
+                                            <div class="offer-column-head__data"><img src="img/icons/tab-clock.svg" alt="" class="offer-img svg-img">Срок изготовления: <strong>17 дней</strong></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Производительность пивоварни: 3000 л/сутки</li>
+                                                <li>Выход готового напитка в сутки: 1500 л/сутки</li>
+                                                <li>Себестоимость одного литра пива: 37 руб/литр</li>
+                                                <li>Примерный расход солода на одну варку: 4 кг</li>
+                                                <li>Необходимая производственная площадь: 3 м2</li>
+                                                <li>Необходимая высота помещения: 5 м</li>
+                                                <li>Энергоноситель: газ/электрика/дрова и т.д.</li>
+                                                <li>Расход холодной воды: 1400 л</li>
+                                                <li>Количество обслуживающего персонала: 8 чел.</li>
+                                                <li>Увеличение производства: до 3700 л/сутки</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__equipment"><img src="img/icons/tab-file.svg" class="offer-img svg-img" alt=""><strong>В комплектацию входит:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Оборудование</li>
+                                                <li>Шеф-монтаж</li>
+                                                <li>Пуско-наладочные работы</li>
+                                                <li>Обучение и сервисное обслуживание</li>
+                                                <li>Техническая документация</li>
+                                                <li>3 месяца помощи технолога,
+                                                    сырье и рецепты в подарок</li>
+                                                <li>Гарантия - 0 лет</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__settings"><img src="img/icons/tab-settings-work-tool.svg" alt="" class="offer-img svg-img"><strong>Особенности конструкции:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <p>
+                                                Идейные соображения высшего
+                                                порядка, а также рамки и место
+                                                обучения кадров позволяет выполнять
+                                                важные задания по разработке позиций,
+                                                занимаемых участниками в отношении
+                                                поставленных.
+                                            </p>
+                                            <p>
+                                                Таким оразом новая модель
+                                                организационной деятельности требует
+                                                от нас анализа позиций, занимаемых
+                                                участниками в отношении
+                                                поставленных задач
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-content" data-tab="300">
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__price"><img src="img/icons/tab-price-tag.svg" alt="" class="offer-img svg-img">Цена: <strong>от 30 000 руб.</strong></div>
+                                            <div class="offer-column-head__data"><img src="img/icons/tab-clock.svg" alt="" class="offer-img svg-img">Срок изготовления: <strong>17 дней</strong></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Производительность пивоварни: 3000 л/сутки</li>
+                                                <li>Выход готового напитка в сутки: 1500 л/сутки</li>
+                                                <li>Себестоимость одного литра пива: 37 руб/литр</li>
+                                                <li>Примерный расход солода на одну варку: 4 кг</li>
+                                                <li>Необходимая производственная площадь: 3 м2</li>
+                                                <li>Необходимая высота помещения: 5 м</li>
+                                                <li>Энергоноситель: газ/электрика/дрова и т.д.</li>
+                                                <li>Расход холодной воды: 1400 л</li>
+                                                <li>Количество обслуживающего персонала: 8 чел.</li>
+                                                <li>Увеличение производства: до 3700 л/сутки</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__equipment"><img src="img/icons/tab-file.svg" class="offer-img svg-img" alt=""><strong>В комплектацию входит:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Оборудование</li>
+                                                <li>Шеф-монтаж</li>
+                                                <li>Пуско-наладочные работы</li>
+                                                <li>Обучение и сервисное обслуживание</li>
+                                                <li>Техническая документация</li>
+                                                <li>3 месяца помощи технолога,
+                                                    сырье и рецепты в подарок</li>
+                                                <li>Гарантия - 0 лет</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__settings"><img src="img/icons/tab-settings-work-tool.svg" alt="" class="offer-img svg-img"><strong>Особенности конструкции:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <p>
+                                                Идейные соображения высшего
+                                                порядка, а также рамки и место
+                                                обучения кадров позволяет выполнять
+                                                важные задания по разработке позиций,
+                                                занимаемых участниками в отношении
+                                                поставленных.
+                                            </p>
+                                            <p>
+                                                Таким оразом новая модель
+                                                организационной деятельности требует
+                                                от нас анализа позиций, занимаемых
+                                                участниками в отношении
+                                                поставленных задач
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-content" data-tab="500">
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__price"><img src="img/icons/tab-price-tag.svg" alt="" class="offer-img svg-img">Цена: <strong>от 100 000 руб.</strong></div>
+                                            <div class="offer-column-head__data"><img src="img/icons/tab-clock.svg" alt="" class="offer-img svg-img">Срок изготовления: <strong>17 дней</strong></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Производительность пивоварни: 3000 л/сутки</li>
+                                                <li>Выход готового напитка в сутки: 1500 л/сутки</li>
+                                                <li>Себестоимость одного литра пива: 37 руб/литр</li>
+                                                <li>Примерный расход солода на одну варку: 4 кг</li>
+                                                <li>Необходимая производственная площадь: 3 м2</li>
+                                                <li>Необходимая высота помещения: 5 м</li>
+                                                <li>Энергоноситель: газ/электрика/дрова и т.д.</li>
+                                                <li>Расход холодной воды: 1400 л</li>
+                                                <li>Количество обслуживающего персонала: 8 чел.</li>
+                                                <li>Увеличение производства: до 3700 л/сутки</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__equipment"><img src="img/icons/tab-file.svg" class="offer-img svg-img" alt=""><strong>В комплектацию входит:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Оборудование</li>
+                                                <li>Шеф-монтаж</li>
+                                                <li>Пуско-наладочные работы</li>
+                                                <li>Обучение и сервисное обслуживание</li>
+                                                <li>Техническая документация</li>
+                                                <li>3 месяца помощи технолога,
+                                                    сырье и рецепты в подарок</li>
+                                                <li>Гарантия - 0 лет</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__settings"><img src="img/icons/tab-settings-work-tool.svg" alt="" class="offer-img svg-img"><strong>Особенности конструкции:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <p>
+                                                Идейные соображения высшего
+                                                порядка, а также рамки и место
+                                                обучения кадров позволяет выполнять
+                                                важные задания по разработке позиций,
+                                                занимаемых участниками в отношении
+                                                поставленных.
+                                            </p>
+                                            <p>
+                                                Таким оразом новая модель
+                                                организационной деятельности требует
+                                                от нас анализа позиций, занимаемых
+                                                участниками в отношении
+                                                поставленных задач
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-content" data-tab="1500">
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__price"><img src="img/icons/tab-price-tag.svg" alt="" class="offer-img svg-img">Цена: <strong>от 200 000 руб.</strong></div>
+                                            <div class="offer-column-head__data"><img src="img/icons/tab-clock.svg" alt="" class="offer-img svg-img">Срок изготовления: <strong>17 дней</strong></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Производительность пивоварни: 3000 л/сутки</li>
+                                                <li>Выход готового напитка в сутки: 1500 л/сутки</li>
+                                                <li>Себестоимость одного литра пива: 37 руб/литр</li>
+                                                <li>Примерный расход солода на одну варку: 4 кг</li>
+                                                <li>Необходимая производственная площадь: 3 м2</li>
+                                                <li>Необходимая высота помещения: 5 м</li>
+                                                <li>Энергоноситель: газ/электрика/дрова и т.д.</li>
+                                                <li>Расход холодной воды: 1400 л</li>
+                                                <li>Количество обслуживающего персонала: 8 чел.</li>
+                                                <li>Увеличение производства: до 3700 л/сутки</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__equipment"><img src="img/icons/tab-file.svg" class="offer-img svg-img" alt=""><strong>В комплектацию входит:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Оборудование</li>
+                                                <li>Шеф-монтаж</li>
+                                                <li>Пуско-наладочные работы</li>
+                                                <li>Обучение и сервисное обслуживание</li>
+                                                <li>Техническая документация</li>
+                                                <li>3 месяца помощи технолога,
+                                                    сырье и рецепты в подарок</li>
+                                                <li>Гарантия - 0 лет</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__settings"><img src="img/icons/tab-settings-work-tool.svg" alt="" class="offer-img svg-img"><strong>Особенности конструкции:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <p>
+                                                Идейные соображения высшего
+                                                порядка, а также рамки и место
+                                                обучения кадров позволяет выполнять
+                                                важные задания по разработке позиций,
+                                                занимаемых участниками в отношении
+                                                поставленных.
+                                            </p>
+                                            <p>
+                                                Таким оразом новая модель
+                                                организационной деятельности требует
+                                                от нас анализа позиций, занимаемых
+                                                участниками в отношении
+                                                поставленных задач
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-content" data-tab="3000">
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__price"><img src="img/icons/tab-price-tag.svg" alt="" class="offer-img svg-img">Цена: <strong>от 300 000 руб.</strong></div>
+                                            <div class="offer-column-head__data"><img src="img/icons/tab-clock.svg" alt="" class="offer-img svg-img">Срок изготовления: <strong>17 дней</strong></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Производительность пивоварни: 3000 л/сутки</li>
+                                                <li>Выход готового напитка в сутки: 1500 л/сутки</li>
+                                                <li>Себестоимость одного литра пива: 37 руб/литр</li>
+                                                <li>Примерный расход солода на одну варку: 4 кг</li>
+                                                <li>Необходимая производственная площадь: 3 м2</li>
+                                                <li>Необходимая высота помещения: 5 м</li>
+                                                <li>Энергоноситель: газ/электрика/дрова и т.д.</li>
+                                                <li>Расход холодной воды: 1400 л</li>
+                                                <li>Количество обслуживающего персонала: 8 чел.</li>
+                                                <li>Увеличение производства: до 3700 л/сутки</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__equipment"><img src="img/icons/tab-file.svg" class="offer-img svg-img" alt=""><strong>В комплектацию входит:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <ul>
+                                                <li>Оборудование</li>
+                                                <li>Шеф-монтаж</li>
+                                                <li>Пуско-наладочные работы</li>
+                                                <li>Обучение и сервисное обслуживание</li>
+                                                <li>Техническая документация</li>
+                                                <li>3 месяца помощи технолога,
+                                                    сырье и рецепты в подарок</li>
+                                                <li>Гарантия - 0 лет</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offer-column">
+                                    <div class="offer-column-head-wrapper">
+                                        <div class="offer-column-head">
+                                            <div class="offer-column-head__settings"><img src="img/icons/tab-settings-work-tool.svg" alt="" class="offer-img svg-img"><strong>Особенности конструкции:</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="offer-column-body-wrapper">
+                                        <div class="offer-column-body">
+                                            <p>
+                                                Идейные соображения высшего
+                                                порядка, а также рамки и место
+                                                обучения кадров позволяет выполнять
+                                                важные задания по разработке позиций,
+                                                занимаемых участниками в отношении
+                                                поставленных.
+                                            </p>
+                                            <p>
+                                                Таким оразом новая модель
+                                                организационной деятельности требует
+                                                от нас анализа позиций, занимаемых
+                                                участниками в отношении
+                                                поставленных задач
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="offer-form-wrapper">
+                            <div class="offer-form">
+                                <h5 class="section__subtitle">Если Вас заинтересовало оборудование на <span id="offer-form-title__value">100л/сутки</span></h5>
+                                <h3 class="section__title section__title--smaller">Оставьте заявку на коммерческое предложение</h3>
+                                <form action="mail.php" method="post">
+                                    <input type="hidden" name="project_name" value="Пивоварня">
+                                    <input type="hidden" name="form_subject" value="Заказать коммерческое предложение">
+                                    <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                                    <input type="hidden" name="Объём" id="offer-title__value" value="100л/сутки">
+                                    <div class="offer-form-wrap">
+                                        <div class="form-input-wrapper">
+                                            <span><i class="zmdi zmdi-account"></i></span>
+                                            <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                                        </div>
+                                        <div class="form-input-wrapper">
+                                            <span><i class="zmdi zmdi-phone"></i></span>
+                                            <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                                        </div>
+                                        <input type="submit" class="btn-form form__btn" value="Получить коммерческое предложение">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="catalog" class="section catalog-section">
+        <img src="img/img/catalog-brew.png" class="catalog-bg-img" alt="">
+        <div class="catalog-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Полный каталог</h5>
+                <h2 class="section__title">Каталог нашего оборудования</h2>
+                <div class="catalog-wrapper">
+                    <div class="catalog">
+                        <div class="catalog-category">
+                            <div class="catalog-category__title">
+                                Варочное отделение
+                            </div>
+                            <div class="catalog-category-wrapper">
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">
+                                            <a href="#" class="btn-catalog catalog-btn-more btn btn-base--active">Узнать больше</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <!--<div class="catalog-item-wrapper">-->
+                                    <!--<div class="catalog-item">-->
+                                        <!--<div class="catalog-item-img">-->
+                                            <!--<img src="img/img/catalog1.jpg" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="catalog-item__title">Танк горячей воды</div>-->
+                                        <!--<div class="catalog-item__price">-->
+                                            <!--<a class="catalog-btn-more btn btn-base&#45;&#45;active">Узнать больше</a>-->
+                                        <!--</div>-->
+
+                                    <!--</div>-->
+                                    <!--<div class="catalog-item-desc&#45;&#45;abs">-->
+                                        <!--<div class="catalog-item-img">-->
+                                            <!--<img src="img/img/catalog1.jpg" alt="">-->
+                                        <!--</div>-->
+                                        <!--<div class="catalog-item__title">Танк горячей воды</div>-->
+
+                                        <!--<div class="catalog-item-desc__text">-->
+                                            <!--<p>-->
+                                                <!--<strong>2-х посудное:</strong> 100, 200, 500, 1000-->
+                                                <!--литров за 1 варку-->
+                                            <!--</p>-->
+                                            <!--<p>-->
+                                                <!--<strong>3-х посудное:</strong> 100, 200, 500, 1000-->
+                                                <!--литров за 1 варку-->
+                                            <!--</p>-->
+                                            <!--<p>-->
+                                                <!--<strong>4-х посудное:</strong> 100, 200, 500, 1000,-->
+                                                <!--2000, 4000 литров сусла за 1-->
+                                                <!--варку-->
+                                            <!--</p>-->
+                                        <!--</div>-->
+                                        <!--<div class="catalog-item-desc__price">125 700 руб.</div>-->
+                                        <!--<a href="#modal-product" class="btn-catalog  btn">Заказать</a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-category">
+                            <div class="catalog-category__title">
+                                ОТДЕЛЕНИЕ БРОЖЕНИЯ
+                            </div>
+                            <div class="catalog-category-wrapper">
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">999 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">999 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-category">
+                            <div class="catalog-category__title">
+                                ХОЛОДИЛЬНОЕ ОТДЕЛЕНИЕ
+                            </div>
+                            <div class="catalog-category-wrapper">
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">999 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">999 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-category">
+                            <div class="catalog-category__title">
+                                ОТДЕЛЕНИЕ РОЗЛИВА
+                            </div>
+                            <div class="catalog-category-wrapper">
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">999 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">999 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-category">
+                            <div class="catalog-category__title">
+                                ВСПОМОГАТЕЛЬНОЕ ОБОРУДОВАНИЕ
+                            </div>
+                            <div class="catalog-category-wrapper">
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog1.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog2.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog3.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                                <div class="catalog-item-wrapper">
+                                    <div class="catalog-item">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+                                        <div class="catalog-item__price">125 700 руб.</div>
+
+                                    </div>
+                                    <div class="catalog-item-desc--abs">
+                                        <div class="catalog-item-img">
+                                            <img src="img/img/catalog4.jpg" alt="">
+                                        </div>
+                                        <div class="catalog-item__title">Танк горячей воды</div>
+
+                                        <div class="catalog-item-desc__text">
+                                            <p>
+                                                <strong>2-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>3-х посудное:</strong> 100, 200, 500, 1000
+                                                литров за 1 варку
+                                            </p>
+                                            <p>
+                                                <strong>4-х посудное:</strong> 100, 200, 500, 1000,
+                                                2000, 4000 литров сусла за 1
+                                                варку
+                                            </p>
+                                        </div>
+                                        <div class="catalog-item-desc__price">125 700 руб.</div>
+                                        <a href="#modal-product" class="btn-catalog  btn">Заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form-price" class="section form-price-section form-section">
+        <div data-relative-input="true" id="mouseForm" class="progress-parallax-right">
+            <img data-depth="0.5" src="img/img/about-us1.png" alt="">
+            <img data-depth="1" src="img/img/about-us2.png" alt="">
+        </div>
+        <div class="form-price-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Получите самую низкую цену</h5>
+                <h2 class="section__title section__title-white">Не устраивают наши цены?</h2>
+                <div class="offer-form-wrapper">
+                    <div class="offer-form">
+                        <h3 class="section__title section__title--smaller">Заполните форму - пришлите коммерческое предложение конкурентов и
+                            получите скидку от их цены 5%</h3>
+                        <form action="mail.php" method="post">
+                            <input type="hidden" name="project_name" value="Пивоварня">
+                            <input type="hidden" name="form_subject" value="Форма Получить скидку">
+                            <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                            <div class="offer-form-wrap">
+                                <div class="form-input-wrapper">
+                                    <span><i class="zmdi zmdi-account"></i></span>
+                                    <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                                </div>
+                                <div class="form-input-wrapper">
+                                    <span><i class="zmdi zmdi-phone"></i></span>
+                                    <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                                </div>
+                                <input type="submit" class="btn-form form__btn" value="Получить скидку">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="excellence" class="section excellence-section">
+        <img src="img/img/excellence-img1.png" class="excellence-bg-img" alt="">
+        <div class="excellence-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Почему мы?</h5>
+                <h2 class="section__title">Наши преимущества</h2>
+                <div class="excellence-wrapper">
+                    <div class="excellence">
+                        <div class="excellence-item-wrapper">
+                            <div class="excellence-item">
+                                <div class="excellence-item-img">
+                                    <img src="img/icons/tag.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="excellence-item-text">
+                                    <strong>Ценовая политика.</strong> Мы предлагаем отличное оборудование по цене на 10% ниже рыночной стоимости, так же нашим клиентам мы предлагаем минимальную предоплату 30%.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="excellence-item-wrapper">
+                            <div class="excellence-item">
+                                <div class="excellence-item-img">
+                                    <img src="img/icons/check-mark.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="excellence-item-text">
+                                    <strong>Гарантия на оборудование.</strong> Мы уверены в качестве нашего оборудования и даем на него гарантию
+                                    24 месяца.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="excellence-item-wrapper">
+                            <div class="excellence-item">
+                                <div class="excellence-item-img">
+                                    <img src="img/icons/recommended.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="excellence-item-text">
+                                    <strong>Высокое качество продукции.</strong> Качественный импортный нержавеющий металлопрокат, лучшие поставщики комплектующих, современное оборудование и технологии – все это обеспечивает высокое качество на всех этапах производства и эксплуатации оборудования.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="excellence-item-wrapper">
+                            <div class="excellence-item">
+                                <div class="excellence-item-img">
+                                    <img src="img/icons/farmer1.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="excellence-item-text">
+                                    <strong>Индивидуальный подход.</strong> Мы подбираем комплектацию оборудования с учетом размеров, планировки помещения, вида энергоносителя и исходя из Ваших задач и возможностей.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="excellence-item-wrapper">
+                            <div class="excellence-item">
+                                <div class="excellence-item-img">
+                                    <img src="img/icons/room-key.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="excellence-item-text">
+                                    <strong>Пивоварня «Под ключ».</strong> Мы обеспечиваем сопровождение заказа от проектирования до ввода оборудования в эксплуатацию, производим постановку на учет оборудования, проводим пробные варки и обучаем персонал.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="excellence-item-wrapper">
+                            <div class="excellence-item">
+                                <div class="excellence-item-img">
+                                    <img src="img/icons/profiles.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="excellence-item-text">
+                                    <strong>Сертификаты и заключения.</strong> Наша компания обладает всеми необходимыми сертификатами соответствия на выпускаемое оборудование, а также санитарно- эпидемиологическими заключениями, действующими на территории России, стран СНГ и Таможенного союза.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="excellence-item-wrapper">
+                            <div class="excellence-item">
+                                <div class="excellence-item-img">
+                                    <img src="img/icons/salary.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="excellence-item-text">
+                                    <strong>Просто работать - легко зарабатывать.</strong> Мы разрабатываем проекты, рассчитанные на максимальную прибыльность и скорейшую окупаемость заводов у наших заказчиков.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="excellence-item-wrapper">
+                            <div class="excellence-item">
+                                <div class="excellence-item-img">
+                                    <img src="img/icons/hired.svg" class="svg-img" alt="">
+                                </div>
+                                <div class="excellence-item-text">
+                                    <strong>Профессионализм сотрудников.</strong> Мы привлекаем к работе высококвалифицированных специалистов, имеющих более чем 10-летний опыт в пивоваренной отрасли.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="section features-section">
+        <img src="img/img/features-abs.png" class="features-bg-img" alt="">
+        <div class="features-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Кратко об оборудовании</h5>
+                <h2 class="section__title">Особенности нашей продукции</h2>
+                <div class="features-wrappers">
+                    <div class="features">
+                        <div class="features-item">
+                            <div class="features-item-img">
+                                <img src="img/img/features1.jpg" alt="">
+                            </div>
+                            <div class="features-item-list">
+                                <ul>
+                                    <li>На нашем оборудовании Вы можете варить не только пиво, но и квас, сидр и другую безалкогольную продукцию.</li>
+                                    <li>Система автоматизации варочного и бродильного цеха дает возможность подключения компьютера.</li>
+                                    <li>Использование внешнего источника пара в системе кипячения сусла позволяет существенно снизить энергозатраты.</li>
+                                    <li>Возможность использовать любой энергоноситель (газ, электричество, дизельное топли-во и т.д) позволяет значительно упростить поиск и подбор помещения под будущую пивоварню.</li>
+                                    <li>Все ёмкости оборудованы надёжным теплоизоляционным слоем и энергоэффективными рубашками нагрева и охлаждения, что позволяет существенно экономить на энергоресурсах.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="features-item">
+                            <div class="features-item-img">
+                                <img src="img/img/features2.jpg" alt="">
+                            </div>
+                            <div class="features-item-list">
+                                <ul>
+                                    <li>На нашем оборудовании Вы можете варить не только пиво, но и квас, сидр и другую безалкогольную продукцию.</li>
+                                    <li>Система автоматизации варочного и бродильного цеха дает возможность подключения компьютера.</li>
+                                    <li>Использование внешнего источника пара в системе кипячения сусла позволяет существенно снизить энергозатраты.</li>
+                                    <li>Возможность использовать любой энергоноситель (газ, электричество, дизельное топли-во и т.д) позволяет значительно упростить поиск и подбор помещения под будущую пивоварню.</li>
+                                    <li>Все ёмкости оборудованы надёжным теплоизоляционным слоем и энергоэффективными рубашками нагрева и охлаждения, что позволяет существенно экономить на энергоресурсах.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form-project" class="section form-project-section form-section">
+        <div class="form-project-wrap">
+            <img src="img/img/project-bg-abs.png" class="form-project-section-img" alt="">
+            <div class="container">
+                <h5 class="section__subtitle">Мы бесплатно спроектируем для Вас пивоварню или пивзавод в день заявки!</h5>
+                <h2 class="section__title section__title-white">Получите проект Вашей пивоварни или пивзавода бесплатно!</h2>
+                <div class="offer-form-wrapper">
+                    <div class="offer-form">
+                        <h3 class="section__title section__title--smaller">Заполните форму и мы свяжемся с Вами, чтобы уточнить Ваши пожелания</h3>
+                        <form action="mail.php">
+                            <input type="hidden" name="project_name" value="Пивоварня">
+                            <input type="hidden" name="form_subject" value="Форма Проект пивоварни">
+                            <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                            <div class="offer-form-wrap">
+                                <div class="form-input-wrapper">
+                                    <span><i class="zmdi zmdi-account"></i></span>
+                                    <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                                </div>
+                                <div class="form-input-wrapper">
+                                    <span><i class="zmdi zmdi-phone"></i></span>
+                                    <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                                </div>
+                                <input type="submit" class="btn-form form__btn" value="Получить проект пивоварни">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="case" class="section case-section">
+        <img src="img/img/case-abs.png" class="case-bg-img" alt="">
+        <div class="case-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Результаты нашей работы</h5>
+                <h2 class="section__title">Наши клиенты и кейсы</h2>
+                <div class="case">
+                    <div class="case-slider-wrapper">
+                        <div class="case-slider">
+                            <div class="case-slider-item">
+                                <div class="case-slider-item-img">
+                                    <div class="case-slider-item-img__main">
+                                        <img src="img/img/case-main.jpg" alt="">
+                                    </div>
+                                    <div class="case-slider-item-img__secondary">
+                                        <a data-fancybox="gallery" href="img/img/features1.jpg"><div class="img-wrapper"><img src="img/img/case-sec1.jpg" alt=""></div></a>
+                                        <a data-fancybox="gallery" href="img/img/features2.jpg"><div class="img-wrapper"><img src="img/img/case-sec2.jpg" alt=""></div></a>
+                                        <a data-fancybox="gallery" href="img/img/case-main.jpg"><div class="img-wrapper"><img src="img/img/case-sec1.jpg" alt=""></div></a>
+                                    </div>
+                                </div>
+                                <div class="case-slider-item-text">
+                                    <div class="case-slider-item-text__wrapper">
+                                        <h4 class="case-slider-item-text__title">Пивоварня Гессен, г. Тольятти</h4>
+                                        <strong>Задача:</strong>
+                                        <p>
+                                            Задача организации, в особенности же реализация намеченных
+                                            плановых заданий представляет собой интеный эксперимент
+                                            проверки существенных финансовых и административных.
+                                            Разнообразный и богатый опыт новая модель.
+                                        </p>
+                                        <strong>Наше решение:</strong>
+                                        <p>
+                                            Задача организации, в особенности же реализация намеченных
+                                            плановых заданий представляет собой интеный эксперимент
+                                            проверки существенных финансовых и административных.
+                                            Разнообразный и богатый опыт новая модель.
+                                            Задача организации, в особенности же реализация намеченных
+                                        </p>
+                                    </div>
+
+                                    <div class="case-slider-item-text__btns">
+                                        <a href="#modal-feedback" class="fancybox btn-base case-btn-feedback">Читать отзыв клиента</a>
+                                        <a href="#modal-project" class="fancybox btn-base btn-base--active case-btn-form">Интересует похожий проект</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="case-slider-item">
+                                <div class="case-slider-item-img">
+                                    <div class="case-slider-item-img__main">
+                                        <img src="img/img/case-main.jpg" alt="">
+                                    </div>
+                                    <div class="case-slider-item-img__secondary">
+                                        <a data-fancybox="gallery" href="img/img/case-sec1.jpg"><div class="img-wrapper"><img src="img/img/case-sec1.jpg" alt=""></div></a>
+                                        <a data-fancybox="gallery" href="img/img/case-sec2.jpg"><div class="img-wrapper"><img src="img/img/case-sec2.jpg" alt=""></div></a>
+                                        <a data-fancybox="gallery" href="img/img/case-sec2.jpg"><div class="img-wrapper"><img src="img/img/case-sec1.jpg" alt=""></div></a>
+                                    </div>
+                                </div>
+                                <div class="case-slider-item-text">
+                                    <div class="case-slider-item-text__wrapper">
+                                        <h4 class="case-slider-item-text__title">Пивоварня Гессен, г. Тольятти</h4>
+                                        <strong>Задача:</strong>
+                                        <p>
+                                            Задача организации, в особенности же реализация намеченных
+                                            плановых заданий представляет собой интеный эксперимент
+                                            проверки существенных финансовых и административных.
+                                            Разнообразный и богатый опыт новая модель.
+                                        </p>
+                                        <strong>Наше решение:</strong>
+                                        <p>
+                                            Задача организации, в особенности же реализация намеченных
+                                            плановых заданий представляет собой интеный эксперимент
+                                            проверки существенных финансовых и административных.
+                                            Разнообразный и богатый опыт новая модель.
+                                            Задача организации, в особенности же реализация намеченных
+                                        </p>
+                                    </div>
+
+                                    <div class="case-slider-item-text__btns">
+                                        <a href="#modal-feedback" class="fancybox btn-base case-btn-feedback">Читать отзыв клиента</a>
+                                        <a href="#modal-project" class="fancybox btn-base btn-base--active">Интересует похожий проект</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="case-slider-item">
+                                <div class="case-slider-item-img">
+                                    <div class="case-slider-item-img__main">
+                                        <img src="img/img/case-main.jpg" alt="">
+                                    </div>
+                                    <div class="case-slider-item-img__secondary">
+                                        <a data-fancybox="gallery" href="img/img/case-sec1.jpg"><div class="img-wrapper"><img src="img/img/case-sec1.jpg" alt=""></div></a>
+                                        <a data-fancybox="gallery" href="img/img/case-sec2.jpg"><div class="img-wrapper"><img src="img/img/case-sec2.jpg" alt=""></div></a>
+                                        <a data-fancybox="gallery" href="img/img/case-sec2.jpg"><div class="img-wrapper"><img src="img/img/case-sec1.jpg" alt=""></div></a>
+                                    </div>
+                                </div>
+                                <div class="case-slider-item-text">
+                                    <div class="case-slider-item-text__wrapper">
+                                        <h4 class="case-slider-item-text__title">Пивоварня Гессен, г. Тольятти</h4>
+                                        <strong>Задача:</strong>
+                                        <p>
+                                            Задача организации, в особенности же реализация намеченных
+                                            плановых заданий представляет собой интеный эксперимент
+                                            проверки существенных финансовых и административных.
+                                            Разнообразный и богатый опыт новая модель.
+                                        </p>
+                                        <strong>Наше решение:</strong>
+                                        <p>
+                                            Задача организации, в особенности же реализация намеченных
+                                            плановых заданий представляет собой интеный эксперимент
+                                            проверки существенных финансовых и административных.
+                                            Разнообразный и богатый опыт новая модель.
+                                            Задача организации, в особенности же реализация намеченных
+                                        </p>
+                                    </div>
+
+                                    <div class="case-slider-item-text__btns">
+                                        <a href="#modal-feedback" class="fancybox btn-base case-btn-feedback">Читать отзыв клиента</a>
+                                        <a href="#modal-project" class="fancybox btn-base btn-base--active ">Интересует похожий проект</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-slider-arrows">
+                            <div class="case-slider-prev"><i class="zmdi zmdi-chevron-left"></i></div>
+                            <div class="case-slider-next"><i class="zmdi zmdi-chevron-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section certificates-section">
+        <img src="img/img/cert-wheat.jpg" alt="" class="certificates-img--wheat">
+        <div class="certificates-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Документы</h5>
+                <h2 class="section__title">Лицензии и сертификаты</h2>
+                <div class="certificates">
+                    <div class="certificates-slider-wrapper">
+                        <div class="certificates-slider">
+                            <div class="certificates-slider-card">
+                                <a href="img/img/doc.jpg" data-fancybox="gallery">
+                                    <div class="certificates-slider-card__img">
+                                        <img src="img/img/doc.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="certificates-slider-card">
+                                <a href="img/img/doc.jpg" data-fancybox="gallery">
+                                    <div class="certificates-slider-card__img">
+                                        <img src="img/img/doc.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="certificates-slider-card">
+                                <a href="img/img/doc.jpg" data-fancybox="gallery">
+                                    <div class="certificates-slider-card__img">
+                                        <img src="img/img/doc.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="certificates-slider-card">
+                                <a href="img/img/doc.jpg" data-fancybox="gallery">
+                                    <div class="certificates-slider-card__img">
+                                        <img src="img/img/doc.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="certificates-slider-card">
+                                <a href="img/img/doc.jpg" data-fancybox="gallery">
+                                    <div class="certificates-slider-card__img">
+                                        <img src="img/img/doc.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="certificates-slider-card">
+                                <a href="img/img/doc.jpg" data-fancybox="gallery">
+                                    <div class="certificates-slider-card__img">
+                                        <img src="img/img/doc.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="certificates-slider-card">
+                                <a href="img/img/doc.jpg" data-fancybox="gallery">
+                                    <div class="certificates-slider-card__img">
+                                        <img src="img/img/doc.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="certificates-slider-card">
+                                <a href="img/img/doc.jpg" data-fancybox="gallery">
+                                    <div class="certificates-slider-card__img">
+                                        <img src="img/img/doc.jpg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="certificates-slider-arrows">
+                            <div class="slider-prev"><i class="zmdi zmdi-chevron-left"></i></div>
+                            <div class="slider-next"><i class="zmdi zmdi-chevron-right"></i></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="section work-section">
+        <img src="img/img/line_art.png" alt="" class="work-bg-img">
+        <div class="work-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Этапы работы с нами</h5>
+                <h2 class="section__title">Как мы работаем</h2>
+                <div class="work-wrapper">
+
+
+                    <div class="work-item-wrapper">
+                        <div class="work-item">
+                            <div class="work-item-decor">
+                                <div class="work-item-img">
+                                    <img src="img/icons/tap.svg" class="svg-img" alt="">
+                                </div>
+                                <span class="work-item-border"></span>
+                            </div>
+                            <div class="work-item-desc">
+                                <h6 class="work-item-desc__title">Запрос КП:</h6>
+                                <div class="work-item-desc__text"> Оставляете заявку или звоните по телефону: 8 (904) 740-77-75</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item-wrapper">
+                        <div class="work-item">
+                            <div class="work-item-decor">
+                                <div class="work-item-img">
+                                    <img src="img/icons/support.svg" class="svg-img" alt="">
+                                </div>
+                                <span class="work-item-border"></span>
+                            </div>
+                            <div class="work-item-desc">
+                                <h6 class="work-item-desc__title">Подготовка и соглосование КП:</h6>
+                                <div class="work-item-desc__text">Наши сотрудники предложат различные варианты и подберут оптимальную комплектацию оборудования под Ваши задачи и нужды</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item-wrapper">
+                        <div class="work-item">
+                            <div class="work-item-decor">
+                                <div class="work-item-img">
+                                    <img src="img/icons/factory.svg" class="svg-img" alt="">
+                                </div>
+                                <span class="work-item-border"></span>
+                            </div>
+                            <div class="work-item-desc">
+                                <h6 class="work-item-desc__title">Подготовка и соглосование КП:</h6>
+                                <div class="work-item-desc__text">Наши сотрудники предложат различные варианты и подберут оптимальную комплектацию оборудования под Ваши задачи и нужды</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-item-wrapper">
+                        <div class="work-item">
+                            <div class="work-item-decor">
+                                <div class="work-item-img">
+                                    <img src="img/icons/settings.svg" class="svg-img" alt="">
+                                </div>
+                                <span class="work-item-border"></span>
+                            </div>
+                            <div class="work-item-desc">
+                                <h6 class="work-item-desc__title">Монтаж и пуско-наладка:</h6>
+                                <div class="work-item-desc__text">Мы осуществляем монтаж силами наших высоквалифицированных специалистов и проводим работы по пуско-наладке оборудования.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item-wrapper">
+                        <div class="work-item">
+                            <div class="work-item-decor">
+                                <div class="work-item-img">
+                                    <img src="img/icons/idea.svg" class="svg-img" alt="">
+                                </div>
+                                <span class="work-item-border"></span>
+                            </div>
+                            <div class="work-item-desc">
+                                <h6 class="work-item-desc__title">Обучение персонала:</h6>
+                                <div class="work-item-desc__text">Проведем первые совместные варки, предоставим рецепты и технологии варки напитков, разработаем индивидуальные сорта по Вашему желанию.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item-wrapper">
+                        <div class="work-item">
+                            <div class="work-item-decor">
+                                <div class="work-item-img">
+                                    <img src="img/icons/handshake.svg" class="svg-img" alt="">
+                                </div>
+                                <span class="work-item-border"></span>
+                            </div>
+                            <div class="work-item-desc">
+                                <h6 class="work-item-desc__title">Гарантия и сервис:</h6>
+                                <div class="work-item-desc__text">Обеспечим сервисное гарантийное и постгарантийное обслуживание оборудования, окажем консультационные услуги.</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form-commercial" class="section form-commercial-section form-section">
+        <div class="form-commercial-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Получите коммерческое предложение</h5>
+                <h2 class="section__title section__title-white">Если Вы не нашли подходящего оборудования или вас не устроили цены</h2>
+                <div class="offer-form-wrapper">
+                    <div class="offer-form">
+                        <h3 class="section__title section__title--smaller">Заполните форму и получите самые выгодные условия сотрудничества</h3>
+                        <form action="mail.php" method="post">
+                            <input type="hidden" name="project_name" value="Пивоварня">
+                            <input type="hidden" name="form_subject" value="Форма Коммерческое предложение ">
+                            <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                            <div class="offer-form-wrap">
+                                <div class="form-input-wrapper">
+                                    <span><i class="zmdi zmdi-account"></i></span>
+                                    <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                                </div>
+                                <div class="form-input-wrapper">
+                                    <span><i class="zmdi zmdi-phone"></i></span>
+                                    <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                                </div>
+                                <input type="submit" class="btn-form form__btn" value="Получить выгодное предложение">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="section contacts-section">
+        <img class="contacts-img--tank" src="img/img/contact-tank.png" alt="">
+        <div class="contacts-wrap">
+            <div class="container">
+                <h5 class="section__subtitle">Как нас найти?</h5>
+                <h1 class="section__title">Наши контакты</h1>
+                <div class="contacts">
+                    <div class="contacts-wrapper">
+                        <div class="map-wrap">
+                            <div class="contacts-map" id="map" data-center-lat="53.539339" data-center-lng="49.441896" data-lat="53.539339" data-lng="49.441896"></div>
+                        </div>
+                        <div class="contacts-form">
+                            <div class="contacts-form-address">
+                                <div class="contacts-form-address__icon"><i class="zmdi zmdi-pin"></i></div>
+                                <div class="contacts-form-address__title">Адрес офиса:</div>
+                            </div>
+                            <div class="contacts-form-address__text">РФ, Самарская область, г. Тольятти,
+                                ул. Новозаводская, 37, офис 11</div>
+                            <a href="#modal-question" class="fancybox btn-base">Задать вопрос</a>
+                            <a href="#modal-call" class="fancybox btn-base btn-base--active">Заказать звонок</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <a href="#home" class="button--to-bottom">
+                <div class="footer-logo-wrapper">
+                    <div class="footer-logo__img">
+                      <img src="img/img/logo.svg" alt="">
+                    </div>
+
+                </div>
+                </a>
+                <div class="footer-list-wrapper">
+                    <ul class="footer-list">
+                        <li class="footer-list-item"><a href="#progress" class="footer-list-item__link button--to-bottom">О нас</a></li>
+                        <li class="footer-list-item"><a href="#offer" class="footer-list-item__link button--to-bottom">Готовые решения</a></li>
+                        <li class="footer-list-item"><a href="#catalog" class="footer-list-item__link button--to-bottom">Оборудование</a></li>
+                        <li class="footer-list-item"><a href="#excellence" class="footer-list-item__link button--to-bottom">Наши Преимущества</a></li>
+                        <li class="footer-list-item"><a href="#case" class="footer-list-item__link button--to-bottom">Клиенты</a></li>
+                        <li class="footer-list-item"><a href="#work" class="footer-list-item__link button--to-bottom">Схема работы</a></li>
+                        <!--<li class="footer-list-item footer-list-item-sublist "><a class="footer-list-item__link on">ЕЩЕ</a>-->
+                            <!--<div class="footer-list-item__sublist">-->
+                                <!--<ul>-->
+                                    <!--<li><a href="#case" class="button&#45;&#45;to-bottom">Кейсы</a></li>-->
+                                    <!--<li><a href="#certificates" class="button&#45;&#45;to-bottom">Сертификаты</a></li>-->
+                                    <!--<li><a href="#work" class="button&#45;&#45;to-bottom">Схема работы</a></li>-->
+                                    <!--<li><a href="#contacts" class="button&#45;&#45;to-bottom">Контакты</a></li>-->
+                                <!--</ul>-->
+                            <!--</div>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+                <div class="footer-contacts-wrapper">
+                    <div class="footer-contacts">
+                        <div class="footer-contacts__phone">тел.Ж +7(8482) 77-66-77</div>
+                        <div class="footer-contacts__email">zavod-bazoviy@mail.ru</div>
+                    </div>
+                    <div class="footer-contacts-btn-wrapper">
+                        <div class="footer-contacts-btn">
+                            <a href="#modal-call" class="fancybox ">Заказать звонок</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">Завод Базовый © Все права защищены</div>
+        </div>
+
+    </footer>
+
+    <div id="modal-question" class="modal modal-question" style="display: none;">
+        <div class="modal-form-content">
+            <div class="home-form form">
+                <h3 class="form-title">Задать вопрос</h3>
+                <form action="mail.php" method="post">
+                    <input type="hidden" name="project_name" value="Пивоварня">
+                    <input type="hidden" name="form_subject" value="Задать вопрос">
+                    <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                    <div class="form-input-wrapper">
+                        <span><i class="zmdi zmdi-account"></i></span>
+                        <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                    </div>
+                    <div class="form-input-wrapper">
+                        <span><i class="zmdi zmdi-phone"></i></span>
+                        <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                    </div>
+                    <div class="form-input-wrapper modal-textarea">
+                        <span><i class="zmdi zmdi-edit"></i></span>
+                        <textarea name="Сообщение" id="message" cols="30" rows="10" placeholder="Напишите вопрос"></textarea>
+                    </div>
+                    <input type="submit" class="form__btn" value="Задать вопрос">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="modal-call" class="modal modal-call" style="display: none;">
+        <div class="modal-form-content">
+            <div class="home-form form">
+                <h3 class="form-title">Заказать звонок</h3>
+                <div class="form-subtitle">Мы свяжемся с Вами и предложим выгодные условия сотрудничества</div>
+                <form action="mail.php" method="post">
+                    <input type="hidden" name="project_name" value="Пивоварня">
+                    <input type="hidden" name="form_subject" value="Заказать звонок">
+                    <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                    <div class="form-input-wrapper">
+                        <span><i class="zmdi zmdi-account"></i></span>
+                        <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                    </div>
+                    <div class="form-input-wrapper">
+                        <span><i class="zmdi zmdi-phone"></i></span>
+                        <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                    </div>
+                    <input type="submit" class="form__btn" value="Заказать звонок">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="modal-thanks" class="modal-success" style="display: none;">
+        <div class="modal-content-wrapper">
+            <div class="modal-success-img">
+                <img src="img/icons/checked.svg" class="svg-img" alt="">
+            </div>
+            <div class="modal-success__title">Спасибо!</div>
+            <div class="modal-success__text">Мы свяжемся с Вами и предложим выгодные условия сотрудничества</div>
+        </div>
+    </div>
+    <div id="modal-product" class="modal modal-product" style="display: none;">
+        <div class="modal-product-wrapper">
+            <div class="modal-product__title">Варочное отделение</div>
+        </div>
+
+        <div class="modal-form-content-wrapper">
+            <div class="modal-form-content">
+                <div class="modal-product-img">
+                    <img src="img/img/modal-product.jpg" alt="">
+                </div>
+                <div class="modal-product-info"></div>
+            </div>
+
+            <div class="modal-form-content">
+                <form action="mail.php" method="post">
+                    <input type="hidden" name="project_name" value="Пивоварня">
+                    <input type="hidden" name="form_subject" value="Заказать товар">
+                    <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                    <input type="hidden" name="Название" id="input-product-name" value="">
+                    <!--<input type="hidden" name="Цена" id="input-product-price" value="">-->
+
+                    <div class="form-input-wrapper">
+                        <span><i class="zmdi zmdi-account"></i></span>
+                        <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                    </div>
+                    <div class="form-input-wrapper">
+                        <span><i class="zmdi zmdi-phone"></i></span>
+                        <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                    </div>
+                    <input type="submit" class="form__btn" value="Заказать">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="modal-feedback" class="modal-feedback" style="display: none;">
+        <div class="modal-feedback-head">
+            <div class="modal-feedback-head-img">
+                <img src="img/img/case-main.jpg" alt="">
+            </div>
+            <div class="modal-feedback-head-info">
+                <div class="modal-feedback-head__title">Пивоварня Гессен, г. Тольятти</div>
+                <div class="modal-feedback-head-desc">
+                    <div class="modal-feedback-head-desc__name">Иванов Иван</div>
+                    <div class="modal-feedback-head-desc__position">менеджер</div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="modal-feedback__text">
+            <p>
+                Остался очень доволен всем, связался со мной менеджер в течении часа,очень приятный парень, знает свое дело, все по существу, заказ обработали очень оперативно, вчера заказал, вчера и забрал.
+            </p>
+            <p>
+                Касательно цены и наличию все полностью соответствует той информации которая указана на сайте. Это мое первое сотрудничество с данными ребятами, но однозначно буду заказывать здесь еще.
+            </p>
+            <p>
+                Всем рекомендую!!!
+            </p>
+        </div>
+    </div>
+    <div id="modal-project" class="modal modal-project" style="display: none;">
+        <div class="modal-form-content">
+            <div class="home-form form">
+                <h3 class="form-title">Заказать проект</h3>
+                <div class="form-subtitle">Мы свяжемся с Вами и предложим выгодные условия сотрудничества</div>
+                <form action="mail.php" method="post">
+                    <input type="hidden" name="project_name" value="Пивоварня">
+                    <input type="hidden" name="form_subject" value="Заказать проект">
+                    <input type="hidden" name="admin_email" value="dykun.s@web-mosaica.info">
+                    <input type="hidden" name="Интересующий проект" id="input-case-title">
+                    <div class="form-input-wrapper">
+                        <span><i class="zmdi zmdi-account"></i></span>
+                        <input type="text" name="Имя" placeholder="Введите Ваше имя" required>
+                    </div>
+                    <div class="form-input-wrapper">
+                        <span><i class="zmdi zmdi-phone"></i></span>
+                        <input type="tel" name="Номер телефона" placeholder="Введите Ваш телефон" required>
+                    </div>
+                    <input type="submit" class="form__btn" value="Заказать проект">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyC8gp2U6txhCTXpCxF8GVafFyqgJ9DN_QA"></script>
+<script src="js/bundle.js"></script>
+</html>

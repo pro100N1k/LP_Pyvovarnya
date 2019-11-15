@@ -1,0 +1,47 @@
+.form-section {
+  padding: 10rem 0;
+  position: relative;
+  background-size: cover;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(#010308,0.7);
+    z-index: 0;
+  }
+}
+.form-price-section {
+  position: relative;
+  background: url("../img/img/bg-form1.jpg") no-repeat no-repeat;
+  background-size: cover;
+  .progress-parallax-right {
+    bottom: auto;
+    top: 15%;
+  }
+}
+.form-project-section {
+  background: url("../img/img/bg-form2.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  &-img {
+    position: absolute;
+    top: -32rem;
+    right: -8rem;
+    @media all and (max-width: 1365px) {
+      display: none;
+    }
+    @media all and (min-width:1366px) and (max-width: 1800px) {
+      max-width: 20rem;
+      top: -10rem;
+      right: -6rem;
+    }
+  }
+}
+.form-commercial-section {
+  background: url("../img/img/bg-form3.jpg") no-repeat no-repeat;
+  background-size: cover;
+}
